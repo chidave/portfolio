@@ -1,0 +1,26 @@
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+body {
+    font-family: Oswald;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 26.4px;
+}
+
+background-color-layer {
+    background-size: cover;
+    opacity: .15;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 30%;
+    box-shadow: inset 0 -40px 60px 10px #ff0060
+}
